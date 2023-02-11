@@ -1,0 +1,57 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="20.000000000000227" scrolly="19.999999999999773" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="Y|p{`{x$WSJjI{OcCZ}g" x="270" y="90">
+      <value name="ID">
+        <shadow type="text" id="GP_Ekq2Bd`O/Hikw.u?*">
+          <field name="TEXT">autorotate</field>
+        </shadow>
+      </value>
+      <value name="VALUE">
+        <shadow type="math_number" id="[x5FIpuy!y46G;J;pi8q">
+          <field name="NUM">5</field>
+        </shadow>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id="XzLiNyjY{+}A8lexg^bj">
+          <field name="NUM">Infinity</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="+rL#/a{RyIS[el4!iB(1">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="@^!NN]CIq.4Wk*;462,X">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="$*wXwsotiaOT_hx(X)e:" inline="false" x="370" y="310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="RNAZKj5jXDx{!$R/_[Dc">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="#jVhP9(hzMyKS!lv!mKP"></block>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="yEzO~UsF`fy8zk:HMd%,">
+          <field name="ON_OFF">OFF</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="C+o^*,5:Z}wpJPur4.v4">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1456.8" viewport-y="28" viewport-w="983.2" viewport-h="668.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
