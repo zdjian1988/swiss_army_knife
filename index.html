@@ -10,23 +10,45 @@
                 height: 100%;
                 border-width: 0;
             }
+            #button_div {
+                position: absolute;
+                top: 0px;
+                left: 50px;
+            }
             .button {
                 position: absolute;
-                left: 50px;
-                width: 100px;
-                height: 100px;
+                width: 70px;
+                height: auto;
             }
             #unfold_button {
                 top: 50px;
             }
             #fold_button {
-                top: 200px;
+                top: 150px;
+            }
+            #annotation_button {
+                top: 250px;
+            }
+            #carbon_button {
+                top: 350px;
+            }
+            #plastic_button {
+                top: 450px;
+            }
+            #wood_button {
+                top: 550px;
             }
         </style>
     </head>
     <body>
         <iframe id="model" src="swiss_army_knife.html"></iframe>
-        <img id="unfold_button" class="button" src="./webflow_icons/unfold_knife_button.svg"/>
-        <img id="fold_button" class="button" src="./webflow_icons/fold_knife_button.svg"/>
+        <div id="button_div">
+            <img id="unfold_button" class="button" src="./webflow_icons/unfold_knife_button.svg"/>
+            <img id="fold_button" class="button" src="./webflow_icons/fold_knife_button.svg"/>
+            <img id="annotation_button" class="button" src="./webflow_icons/annotation_visible_button.svg"/>
+            <img id="carbon_button" class="button" src="./webflow_icons/carbon_button.png"/>
+            <img id="plastic_button" class="button" src="./webflow_icons/plastic_button.png"/>
+            <img id="wood_button" class="button" src="./webflow_icons/wood_button.png"/>
+        </div>
     </body>
 </html>
