@@ -4,51 +4,46 @@
         <style>
             #model {
                 position: absolute;
-                top: 0px;
-                left: 0px;
+                top: 0%;
+                left: 0%;
                 width: 100%;
                 height: 100%;
                 border-width: 0;
             }
-            #button_div {
+            #left_panel {
                 position: absolute;
-                top: 0px;
-                left: 50px;
+                top: 80px;
+                left: 80px;
+                width: 78px;
+                height: 300px;
             }
-            .button {
+            #left_panel > div {
                 position: absolute;
-                width: 70px;
-                height: auto;
+                left: 0px;
+                width: 78px;
+                height: 90px;
+                background-repeat: no-repeat;
             }
             #unfold_button {
-                top: 50px;
+                top: 0px;
+                background-image: url("webflow_icons/unfold_knife_button.svg");
             }
             #fold_button {
-                top: 150px;
+                top: 100px;
+                background-image: url("webflow_icons/fold_knife_button.svg");
             }
             #annotation_button {
-                top: 250px;
-            }
-            #carbon_button {
-                top: 350px;
-            }
-            #plastic_button {
-                top: 450px;
-            }
-            #wood_button {
-                top: 550px;
+                top: 200px;
+                background-image: url("webflow_icons/annotation_visible_button.svg");
             }
         </style>
     </head>
     <body>
         <iframe id="model" src="swiss_army_knife.html"></iframe>
-        <div id="button_div">
-            <img id="unfold_button" class="button" src="./webflow_icons/unfold_knife_button.svg"/>
-            <img id="fold_button" class="button" src="./webflow_icons/fold_knife_button.svg"/>
-            <img id="annotation_button" class="button" src="./webflow_icons/annotation_visible_button.svg"/>
-            <img id="carbon_button" class="button" src="./webflow_icons/carbon_button.png"/>
-            <img id="plastic_button" class="button" src="./webflow_icons/plastic_button.png"/>
-            <img id="wood_button" class="button" src="./webflow_icons/wood_button.png"/>
+        <div id="left_panel">
+            <div id="unfold_button"></div>
+            <div id="fold_button"></div>
+            <div id="annotation_button"></div>
         </div>
     </body>
 </html>
