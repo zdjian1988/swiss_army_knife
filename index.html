@@ -4,46 +4,61 @@
         <style>
             #model {
                 position: absolute;
-                top: 0%;
-                left: 0%;
+                top: 0px;
+                left: 0px;
                 width: 100%;
                 height: 100%;
                 border-width: 0;
             }
-            #left_panel {
-                position: absolute;
-                top: 80px;
-                left: 80px;
-                width: 78px;
-                height: 300px;
+            #left_side, #right_size {
+                position: fixed;
+                top: 0px;
+                width: 100px;
+                height: 100%;
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
-            #left_panel > div {
+            #left_side {
+                left: 0px;
+            }
+            .button_area {
+                position: absolute;
+                width: 60px;
+                height: 230px;
+                background-color: transparent;
+            }
+            #unfold_button, #fold_button, #annotation_button{
                 position: absolute;
                 left: 0px;
-                width: 78px;
-                height: 90px;
+                width: 60px;
+                height: 100px;
                 background-repeat: no-repeat;
+                background-size: 60px auto;
             }
             #unfold_button {
                 top: 0px;
                 background-image: url("webflow_icons/unfold_knife_button.svg");
             }
             #fold_button {
-                top: 100px;
+                top: 80px;
                 background-image: url("webflow_icons/fold_knife_button.svg");
             }
             #annotation_button {
-                top: 200px;
+                top: 160px;
                 background-image: url("webflow_icons/annotation_visible_button.svg");
             }
         </style>
     </head>
     <body>
         <iframe id="model" src="swiss_army_knife.html"></iframe>
-        <div id="left_panel">
-            <div id="unfold_button"></div>
-            <div id="fold_button"></div>
+        <div id="left_side">
+            <div class="button_area">
+                <div id="unfold_button"></div>
+                <div id="fold_button"></div>
             <div id="annotation_button"></div>
+            </div>
         </div>
     </body>
 </html>
