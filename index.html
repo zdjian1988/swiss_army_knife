@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Index of My Awesome App</title>
+        <link rel="icon" type="image/x-icon" href="webflow_icons/favicon.png">
         <style>
             #model {
                 position: absolute;
@@ -10,44 +11,62 @@
                 height: 100%;
                 border-width: 0;
             }
-            #left_side, #right_size {
+            #left_side, #right_side {
                 position: fixed;
-                top: 0px;
+                top: 50%;
                 width: 100px;
-                height: 100%;
-                background-color: transparent;
-                display: flex;
+                height: 0%;
                 align-items: center;
                 justify-content: center;
             }
             #left_side {
                 left: 0px;
+                display: none;
+            }
+            #right_side {
+                right: 0px;
+                display: none;
             }
             .button_area {
                 position: absolute;
                 width: 60px;
                 height: 230px;
-                background-color: transparent;
             }
-            #unfold_button, #fold_button, #annotation_button{
+            #unfold_button, #fold_button, #annotation_button, #carbon_button, #plastic_button, #wood_button{
                 position: absolute;
                 left: 0px;
                 width: 60px;
-                height: 100px;
+                height: 80px;
                 background-repeat: no-repeat;
                 background-size: 60px auto;
+                cursor: pointer;
+            }
+            #unfold_button, #carbon_button {
+                top: 0px;
+            }
+            #fold_button, #plastic_button {
+                top: 80px;
+            }
+            #annotation_button, #wood_button {
+                top: 160px;
             }
             #unfold_button {
-                top: 0px;
                 background-image: url("webflow_icons/unfold_knife_button.svg");
             }
             #fold_button {
-                top: 80px;
                 background-image: url("webflow_icons/fold_knife_button.svg");
             }
             #annotation_button {
-                top: 160px;
                 background-image: url("webflow_icons/annotation_visible_button.svg");
+            }
+            #carbon_button {
+                background-image: url("webflow_icons/carbon_button.png");
+            }
+            #plastic_button {
+                background-image: url("webflow_icons/plastic_button.png");
+            }
+            #wood_button {
+                background-image: url("webflow_icons/wood_button.png");
             }
         </style>
     </head>
@@ -57,7 +76,14 @@
             <div class="button_area">
                 <div id="unfold_button"></div>
                 <div id="fold_button"></div>
-            <div id="annotation_button"></div>
+                <div id="annotation_button"></div>
+            </div>
+        </div>
+        <div id="right_side">
+            <div class="button_area">
+                <div id="carbon_button"></div>
+                <div id="plastic_button"></div>
+                <div id="wood_button"></div>
             </div>
         </div>
     </body>
