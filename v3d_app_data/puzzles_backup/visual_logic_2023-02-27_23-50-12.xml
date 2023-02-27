@@ -653,7 +653,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="annotations" type="SecondaryTab" active="true" scrollx="7.062790382561161" scrolly="-471.66871428412924" scale="0.5568374181775592">
+  <tab name="annotations" type="SecondaryTab" active="true" scrollx="114.08115010098277" scrolly="-881.0468917770779" scale="0.7462153966366274">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="+v$awh?.:wg)`;_=FqqU">annotation_visible</variable>
       <variable id="ZmHX[jd.lnE+fb#k5$(.">unfolded_knife</variable>
@@ -1139,23 +1139,6 @@
                           <field name="BOOL">FALSE</field>
                         </block>
                       </value>
-                      <next>
-                        <block type="setCSSRuleStyle" id="xJrk:;,YGd5DcBgHA(Xf">
-                          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-                          <field name="PROPERTY">backgroundImage</field>
-                          <field name="PARENT">TRUE</field>
-                          <value name="VALUE">
-                            <block type="text" id="FNT|0L.pSe::ZXX$JfEp">
-                              <field name="TEXT">url(webflow_icons/annotation_hidden_button.svg)</field>
-                            </block>
-                          </value>
-                          <value name="ID">
-                            <shadow type="text" id="=(Z([tMk{EEDrIV]@QTP">
-                              <field name="TEXT">#annotation_button</field>
-                            </shadow>
-                          </value>
-                        </block>
-                      </next>
                     </block>
                   </next>
                 </block>
@@ -1299,23 +1282,6 @@
                           <field name="BOOL">TRUE</field>
                         </block>
                       </value>
-                      <next>
-                        <block type="setCSSRuleStyle" id="+ocj=`pUeb^#x|?SPAq:">
-                          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-                          <field name="PROPERTY">backgroundImage</field>
-                          <field name="PARENT">TRUE</field>
-                          <value name="VALUE">
-                            <block type="text" id="[v_H[kS/WdCzwo3#Q4#Q">
-                              <field name="TEXT">url(webflow_icons/annotation_visible_button.svg)</field>
-                            </block>
-                          </value>
-                          <value name="ID">
-                            <shadow type="text" id="Z8T`7R6?MB/9Udq6@9-#">
-                              <field name="TEXT">#annotation_button</field>
-                            </shadow>
-                          </value>
-                        </block>
-                      </next>
                     </block>
                   </next>
                 </block>

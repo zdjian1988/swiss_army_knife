@@ -653,7 +653,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="annotations" type="SecondaryTab" active="true" scrollx="7.062790382561161" scrolly="-471.66871428412924" scale="0.5568374181775592">
+  <tab name="annotations" type="SecondaryTab" active="true" scrollx="1.7448311289644494" scrolly="-404.8798854751822" scale="0.5568374181775592">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="+v$awh?.:wg)`;_=FqqU">annotation_visible</variable>
       <variable id="ZmHX[jd.lnE+fb#k5$(.">unfolded_knife</variable>
@@ -1299,23 +1299,6 @@
                           <field name="BOOL">TRUE</field>
                         </block>
                       </value>
-                      <next>
-                        <block type="setCSSRuleStyle" id="+ocj=`pUeb^#x|?SPAq:">
-                          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
-                          <field name="PROPERTY">backgroundImage</field>
-                          <field name="PARENT">TRUE</field>
-                          <value name="VALUE">
-                            <block type="text" id="[v_H[kS/WdCzwo3#Q4#Q">
-                              <field name="TEXT">url(webflow_icons/annotation_visible_button.svg)</field>
-                            </block>
-                          </value>
-                          <value name="ID">
-                            <shadow type="text" id="Z8T`7R6?MB/9Udq6@9-#">
-                              <field name="TEXT">#annotation_button</field>
-                            </shadow>
-                          </value>
-                        </block>
-                      </next>
                     </block>
                   </next>
                 </block>
