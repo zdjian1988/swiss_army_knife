@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="20.000000000000455" scrolly="0" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="31.295400619506836" scrolly="261.0855903625489" scale="0.7462153966366274">
+  <tab name="main" type="MainTab" active="true" scrollx="-216.0379123687744" scrolly="463.75227737426763" scale="0.7462153966366274">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZmHX[jd.lnE+fb#k5$(.">unfolded_knife</variable>
     </variables>
@@ -150,7 +150,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="BtYaVa(|iwx`Fi*L-wV;" x="110" y="170">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="BtYaVa(|iwx`Fi*L-wV;" disabled="true" x="110" y="170">
       <value name="ID">
         <shadow type="text" id="9PQZY:o:x^EY4(4?Qf(I">
           <field name="TEXT">autorotate</field>
@@ -177,7 +177,7 @@
         </block>
       </statement>
       <next>
-        <block type="whenClicked" id="$*wXwsotiaOT_hx(X)e:" inline="false">
+        <block type="whenClicked" id="$*wXwsotiaOT_hx(X)e:" inline="false" disabled="true">
           <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
           <field name="X_RAY">FALSE</field>
           <field name="DOUBLE_CLICK">FALSE</field>
