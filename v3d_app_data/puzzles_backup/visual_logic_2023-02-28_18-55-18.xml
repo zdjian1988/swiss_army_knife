@@ -1,10 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="init" type="InitTab" active="false" scrollx="20.000000000000455" scrolly="0" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="-216.0379123687744" scrolly="463.75227737426763" scale="0.7462153966366274">
+  <tab name="main" type="MainTab" active="true" scrollx="181.9620876312256" scrolly="181.08559036254883" scale="0.7462153966366274">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZmHX[jd.lnE+fb#k5$(.">unfolded_knife</variable>
     </variables>
-    <block xmlns="https://developers.google.com/blockly/xml" type="printPerformanceInfo" id="Q7f!bsf:~KT4{UN/m[6L" x="990" y="-410"></block>
     <block xmlns="https://developers.google.com/blockly/xml" type="volume" id="A2w:lg$?_e!jR-y3VYN`" x="110" y="-170">
       <value name="VALUE">
         <block type="loadSoundAdv" id="()7QuIWH_jgBpvB-$ioD">
@@ -1329,5 +1328,5 @@
       </next>
     </block>
   </tab>
-  <editorsettings viewport-x="593.4666107177734" viewport-y="893.9999389648438" viewport-w="561.865" viewport-h="282.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="605.4666107177734" viewport-y="941.3333129882812" viewport-w="561.865" viewport-h="282.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>

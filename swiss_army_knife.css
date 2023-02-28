@@ -4,7 +4,28 @@ body {
     margin: 0px;
     overflow: hidden;
 }
-
+.v3d-annotation-transparent {
+    background-color: gray;
+    opacity: 0.1;
+}
+.v3d-annotation-dialog {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    min-width: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.v3d-annotation {
+    width: 20px;
+    height: 20px;
+    min-width: 0px;
+    padding: 0px;
+    font-size: 0px;
+    border: none;
+    background-image: url("./webflow_icons/info.svg");
+    background-color: white;
+}
 .v3d-container {
     position: absolute;
     top: 0px;

@@ -4,7 +4,6 @@
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZmHX[jd.lnE+fb#k5$(.">unfolded_knife</variable>
     </variables>
-    <block xmlns="https://developers.google.com/blockly/xml" type="printPerformanceInfo" id="Q7f!bsf:~KT4{UN/m[6L" x="990" y="-410"></block>
     <block xmlns="https://developers.google.com/blockly/xml" type="volume" id="A2w:lg$?_e!jR-y3VYN`" x="110" y="-170">
       <value name="VALUE">
         <block type="loadSoundAdv" id="()7QuIWH_jgBpvB-$ioD">

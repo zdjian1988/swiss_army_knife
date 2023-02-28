@@ -4,7 +4,23 @@
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="ZmHX[jd.lnE+fb#k5$(.">unfolded_knife</variable>
     </variables>
-    <block xmlns="https://developers.google.com/blockly/xml" type="printPerformanceInfo" id="Q7f!bsf:~KT4{UN/m[6L" x="990" y="-410"></block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="bloom" id="}f?%[%JLq9vT4F09EzYJ" x="850" y="-290">
+      <value name="THRESHOLD">
+        <shadow type="number_slider" id="24^gCpL[pJ`n|CtRW9Kx">
+          <field name="NUM" min="0" max="10" step="0.1">0.1</field>
+        </shadow>
+      </value>
+      <value name="STRENGTH">
+        <shadow type="number_slider" id="PR;Jvl9+h4nbNWG1=lhd">
+          <field name="NUM" min="0" max="10" step="0.1">0.3</field>
+        </shadow>
+      </value>
+      <value name="RADIUS">
+        <shadow type="number_slider" id="kh/}]jh^SvN==ntNE;o[">
+          <field name="NUM" min="0" max="10" step="0.1">0.2</field>
+        </shadow>
+      </value>
+    </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="volume" id="A2w:lg$?_e!jR-y3VYN`" x="110" y="-170">
       <value name="VALUE">
         <block type="loadSoundAdv" id="()7QuIWH_jgBpvB-$ioD">
